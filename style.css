@@ -1,0 +1,155 @@
+:root {
+  --ink-deep: #2C3E50;
+  --ink-medium: #4A6785;
+  --cream: #F5F0E6;
+  --paper: #EDE4D3;
+  --sepia: #8B5A2B;
+  --rust: #A0522D;
+  --text: #333333;
+  --teal: #17A2B8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--cream);
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+a {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--paper);
+}
+
+header h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: var(--ink-deep);
+  margin-bottom: 8px;
+}
+
+header nav {
+  font-size: 0.9em;
+}
+
+header nav a {
+  color: var(--ink-medium);
+  margin-right: 15px;
+}
+
+header nav a:hover {
+  color: var(--rust);
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+article h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  color: var(--ink-deep);
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+article .meta {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+article p {
+  margin-bottom: 1.2em;
+}
+
+blockquote {
+  margin: 1.5em 0;
+  padding: 15px 20px;
+  background: var(--paper);
+  border-left: 3px solid var(--sepia);
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 0.85em;
+  color: #555;
+}
+
+article h3 {
+  font-size: 1.2em;
+  color: var(--ink-deep);
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--paper);
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 2px solid var(--paper);
+  font-size: 0.85em;
+  color: #666;
+}
+
+.post-list {
+  list-style: none;
+}
+
+.post-list li {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--paper);
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-list a {
+  font-size: 1.1em;
+  color: var(--ink-deep);
+}
+
+.post-list a:hover {
+  color: var(--teal);
+}
+
+.post-list .date {
+  display: block;
+  font-size: 0.85em;
+  color: #666;
+  margin-top: 5px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
